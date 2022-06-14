@@ -7,6 +7,11 @@
     <link rel="icon" href="../images/favicon.ico">
     <meta name="author" content="Alejandro Buttiero">
     <meta name="description" content="Libros publicados por la escritora Mariana Enríquez">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
     <title>Mariana Enriquez | Publicaciones</title>
 </head>
@@ -37,11 +42,11 @@
     </header>
     <section class="main-section2">
         <div>
-            <img class="main-image2" src="../images/foto_mariana_perfil.webp" alt="fotografía de la escritora Mariana Enríquez de perfil">
+            <img class="main-image2 animate__animated animate__fadeIn" src="../images/foto_mariana_perfil.webp" alt="fotografía de la escritora Mariana Enríquez de perfil">
         </div>
         <div class="main-text2">
-            <h1 class="main-text__title">Publicaciones</h1> <br>
-            <p class="main-text__content">
+            <h1 class="main-text__title animate__animated animate__fadeIn">Publicaciones</h1> <br>
+            <p class="main-text__content animate__animated animate__fadeIn">
             Con 46 años y apenas un puñado de libros publicados (muchos de ellos, recopilaciones de relatos), Mariana Enríquez se ha ganado en los últimos años una merecida fama como una de las voces renovadoras de la literatura de terror en español. De influencias diversas y desprejuiciadas, ferviente devoradora de cine, comics y música en la misma medida que de literatura.
             <br> 
             A continuación te invitamos a conocer su obra:
@@ -49,7 +54,8 @@
         </div>
     </section>
     <section class="libros">
-        <div class="libros__info">
+        <div class="libros__info" data-aos="fade-up"
+        data-aos-duration="3000">
             <h2>BAJAR ES LO PEOR (1995)</h2>
             <p>La primera novela de Mariana Enriquez: tres adolescentes se asoman al abismo de las drogas, la destrucción y el amor.</p>
             <br>
@@ -58,7 +64,8 @@
             </picture>
         </div>
        
-        <div class="libros__info">
+        <div class="libros__info" data-aos="fade-up"
+        data-aos-duration="3000">
             <h2>LOS PELIGROS DE FUMAR EN LA CAMA (2009)</h2>
             <p>Doce cuentos en los que lo terroríﬁco se inﬁltra en lo cotidiano. Doce relatos perturbadores que llevan el género de terror a una nueva dimensión. </p>
             <br>
@@ -67,7 +74,8 @@
             </picture>
         </div>
     
-        <div class="libros__info">
+        <div class="libros__info" data-aos="fade-up"
+        data-aos-duration="3000">
             <h2>ALGUIEN CAMINA SOBRE TU TUMBA (2013)</h2>
             <p>Mariana Enriquez se pasea y nos pasea por cementerios de medio mundo: una propuesta fascinante que va mucho más allá de lo macabro.</p>
             <br>
@@ -76,7 +84,8 @@
             </picture>
         </div>
         
-        <div class="libros__info">
+        <div class="libros__info" data-aos="fade-up"
+        data-aos-duration="3000">
             <h2>LAS COSAS QUE PERDIMOS EN EL FUEGO (2016)</h2>
             <p>El mundo de Mariana Enriquez no tiene por qué ser el nuestro, y, sin embargo, lo termina siendo. Bastan pocas frases para pisarlo, respirarlo y no olvidarlo gracias a una viveza emocional insólita. Con la cotidianidad hecha pesadilla, el lector se despierta abatido, perturbado por historias e imágenes que jamás conseguirá sacarse de la cabeza.</p>
             <br>
@@ -85,7 +94,8 @@
             </picture>
         </div>
         
-         <div class="libros__info">
+         <div class="libros__info" data-aos="fade-up"
+         data-aos-duration="3000">
             <h2>NUESTRA PARTE DE NOCHE (2019)</h2>
             <p>La herencia, el deseo de pervivir, la paternidad, el horror, lo íntimo y lo político. Una novela libre y osada, hechizante y genial. </p>
             <br>  
@@ -100,19 +110,19 @@
         <section>
             <ul class="footer">
                  <li class="footer__item">
-                      <a class="footer__link" href="../index.html">Home</a>
+                      <a class="footer__link footer__hover" href="../index.html">Home</a>
                  </li>
                  <li class="footer__item">
-                     <a class="footer__link" href="./publicaciones.html">Publicaciones</a>
+                     <a class="footer__link footer__hover" href="./publicaciones.html">Publicaciones</a>
                  </li>
                  <li class="footer__item">
-                      <a class="footer__link" href="./biografia.html">Biografía</a>
+                      <a class="footer__link footer__hover" href="./biografia.html">Biografía</a>
                  </li>
                  <li class="footer__item">
-                      <a class="footer__link" href="./prensa.html">Prensa</a>
+                      <a class="footer__link footer__hover" href="./prensa.html">Prensa</a>
                  </li>
                  <li class="footer__item">
-                      <a class="footer__link" href="./contacto.html">Contacto</a>
+                      <a class="footer__link footer__hover" href="./contacto.html">Contacto</a>
                 </li> 
             </ul>
         </section>
@@ -136,5 +146,9 @@
         </section>
     </footer>
     <!-- fin footer-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
