@@ -1,0 +1,49 @@
+// HOME
+
+main{
+    .main-section{
+        display:flex;
+        align-items: center;
+        .main-image{
+            max-width: 80%;
+            margin-top: 10em;
+          }
+        .main-text{
+        text-align: center;
+        position:relative;
+        right: 5em;
+        }
+    }
+    .carrusel{
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .form-tittle{
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

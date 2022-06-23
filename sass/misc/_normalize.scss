@@ -1,0 +1,27 @@
+// NORMALIZE
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+    font-family: 'Manrope', sans-serif;
+    color:white;
+    max-width: 1200px;
+    margin:0 auto;
+}
+img{
+    width: 100%;
+}
+ul, ol{
+    list-style-type: none;
+}
+a{
+    font-size: 15px;
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:inherit;
+}

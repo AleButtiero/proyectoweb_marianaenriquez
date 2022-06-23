@@ -1,0 +1,26 @@
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    .footer-icons{
+        max-width: 350px;
+        display:flex;
+        gap:2em;
+    }
+    .footer__hover:hover{
+        text-decoration: underline;
+        background-color: grey;
+        transition: all 1s;
+        }
+    .contenedor__fix{
+    margin-top: 8em;
+    }
+    .logo-footer{
+        max-width: 60%;
+        margin-left: 3em;
+    }
+}
+
+

@@ -1,0 +1,37 @@
+/* HEADER */
+
+header{
+    padding:1rem;
+    .menu{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        &__items{
+            display:flex;
+            align-items: center;
+            gap:1rem;
+            text-decoration: none;
+        }
+        &__items a{
+            display:block;
+            padding: 1rem 1.2rem;
+        }
+        .bootstrap-menu{
+            display: flex;
+            padding: 1em;
+        }
+        .navbar__flex{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .responsive-menu{
+        margin-bottom: 1em;
+        }
+        .logo{
+            max-width: 100%;
+            width: 150px;
+        }        
+    }
+}
