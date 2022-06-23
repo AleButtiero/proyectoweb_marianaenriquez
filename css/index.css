@@ -1,5 +1,4 @@
-/* Normalize */
-
+/* NORMALIZE */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
 *{
     margin:0px;
@@ -28,63 +27,56 @@ a:hover{
     color:inherit;
 }
 
-header{
-    padding:1rem;
-}
+/* HEADER */
+header {
+    padding: 1rem; }
+    header .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      header .menu__items {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-decoration: none; }
+      header .menu__items a {
+        display: block;
+        padding: 1rem 1.2rem; }
+      header .menu .bootstrap-menu {
+        display: flex;
+        padding: 1em; }
+      header .menu .navbar__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+      header .menu .responsive-menu {
+        margin-bottom: 1em; }
+      header .menu .logo {
+        max-width: 100%;
+        width: 150px; }
 
-/* Menu styles */
-.menu{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu__items{
-    display:flex;
-    align-items: center;
-    gap:1rem;
-    text-decoration: none;
-}
-.menu__items a{
-    display:block;
-    padding: 1rem 1.2rem;
-}
-.menu__items a:hover{
-    display:block;
-    padding: 1rem 1.2rem;
-    background-color: grey;
-    transition: background-color 1s;
-}
-.bootstrap-menu{
+/* HOME */
+main .main-section {
     display: flex;
-    padding: 1em;
-}
-.prueba{
-    display: flex;
-    justify-content:flex-end;
-}
-.prueba2{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.responsive-menu{
-margin-bottom: 1em;
-}
-.logo{
-    max-width: 100%;
-    width: 150px;
-}
+    align-items: center; }
+    main .main-section .main-image {
+      max-width: 80%;
+      margin-top: 10em; }
+    main .main-section .main-text {
+      text-align: center;
+      position: relative;
+      right: 5em; }
+  main .carrusel {
+    margin-top: 3em;
+    margin-bottom: 3em; }
+  main .form-tittle {
+    max-width: 300px; }
+  
 
-/* Main section styles  */
-.main-image{
-  max-width: 80%;
-  margin-top: 10em;
-}
-.main-section{
-    display:flex;
-    align-items: center;
-}
+
+
+
 .main-section2{
     display:flex;
     justify-content: center;
@@ -119,17 +111,8 @@ margin-bottom: 1em;
 .main-section2__contenedor{
     max-width: 60%;
 }
-.main-text{
-text-align: center;
-position:relative;
-right: 5em;
-}
 
-/* Carrusel styles */
-.carrusel{
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
+
 /* cover books styles */
 .libros{
     max-width: 1200px;
@@ -251,13 +234,6 @@ right: 5em;
     align-items: center;
     justify-content: center;
     gap:3em;
-    /* From https://css.glass */
-background: rgba(199, 24, 24, 0.38);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.7px);
--webkit-backdrop-filter: blur(2.7px);
-border: 1px solid rgba(199, 24, 24, 0.27);
 }
 .form-newsletter2 .form-content{
     display:flex;
@@ -273,9 +249,7 @@ border: 1px solid rgba(199, 24, 24, 0.27);
 .header2{
     height: 6em;
 }
-.form-tittle{
-    max-width: 300px;
-}
+
 .form-label-prueba{
     margin-top: 1em;
 }
@@ -287,27 +261,27 @@ border: 1px solid rgba(199, 24, 24, 0.27);
     margin-top: 1.5em;
 }
 
-/* Footer styles */
-footer{
-    display:flex;
+/* FOOTER*/
+footer {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 2em;
-    margin-bottom: 2em;
-}
-.footer-icons{
-    max-width: 350px;
-    display:flex;
-    gap:2em;
-}
-.footer__hover:hover{
-text-decoration: underline;
-background-color: grey;
-transition: all 1s;
-}
-.contenedor__fix{
-    margin-top: 8em;
-}
+    margin-bottom: 2em; }
+    footer .footer-icons {
+      max-width: 350px;
+      display: flex;
+      gap: 2em; }
+    footer .footer__hover:hover {
+      text-decoration: underline;
+      background-color: grey;
+      transition: all 1s; }
+    footer .contenedor__fix {
+      margin-top: 8em; }
+    footer .logo-footer {
+      max-width: 60%;
+      margin-left: 3em; }
+
 
 
 
@@ -401,6 +375,9 @@ transition: all 1s;
         position:absolute;
         margin-bottom: 17em;
     }
+    .logo{
+        display: none;
+    }
 }
 
 /* Media queries styles and breakpoints 560 */
@@ -409,9 +386,9 @@ transition: all 1s;
         display:flex;
     }
     .menu__items{
-        display:block;
         align-items: center;
         gap:0rem;
+        
     }
     .menu__items a{
         padding: 4px;
