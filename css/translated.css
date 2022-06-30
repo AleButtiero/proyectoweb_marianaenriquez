@@ -1,3 +1,15 @@
+.auto {
+  padding: 0em; }
+
+.x-small {
+  padding: 1em; }
+
+.small {
+  padding: 3em; }
+
+.big {
+  padding: 10em; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -24,6 +36,7 @@ a {
 a:hover {
   color: inherit; }
 
+/* MIXIN */
 /* HEADER */
 header {
   padding: 1rem; }
@@ -77,6 +90,7 @@ footer {
 /* HOME */
 main .main-section {
   display: flex;
+  justify-content: center;
   align-items: center; }
   main .main-section .main-image {
     max-width: 80%;
@@ -91,14 +105,13 @@ main .carrusel {
   margin-bottom: 3em; }
 
 main .form-tittle {
-  max-width: 300px; }
+  max-width: 300%; }
 
 /* PUBLICACIONES */
 .main-section2 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 2em; }
+  align-items: center; }
   .main-section2 .main-image2 {
     max-width: 80%;
     margin-top: 8em; }
@@ -108,7 +121,7 @@ main .form-tittle {
     line-height: 1.9; }
 
 .libros {
-  max-width: 1200px;
+  max-width: 1200%;
   margin-top: 3em;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -152,6 +165,15 @@ main .form-tittle {
     grid-column: 1/13;
     grid-row: 2;
     margin-top: 3em; }
+
+.btn, .btn-color {
+  padding: 0.6em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 100; }
+
+.btn-color {
+  background-color: rgba(20, 17, 17, 0.726); }
 
 /* PRENSA */
 .main-section3 {

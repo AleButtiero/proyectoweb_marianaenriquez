@@ -27,6 +27,21 @@ a:hover{
     color:inherit;
 }
 
+/* MAPS PADDING */
+
+.auto {
+  padding: 0em; }
+
+.x-small {
+  padding: 1em; }
+
+.small {
+  padding: 3em; }
+
+.big {
+  padding: 10em; }
+
+  
 /* HEADER */
 header {
     padding: 1rem; }
@@ -132,6 +147,16 @@ main .main-section {
       grid-column: 1/13;
       grid-row: 2;
       margin-top: 3em; }
+
+      .btn, .btn-color {
+        padding: 0.6em;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 100; }
+      
+      .btn-color {
+        background-color: rgba(20, 17, 17, 0.726); }
+
 
 /* PRENSA */
 .main-section3 {

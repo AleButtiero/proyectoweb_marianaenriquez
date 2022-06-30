@@ -22,6 +22,20 @@
     }
 }
 
+.btn {
+    padding:0.6em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 100;
+  }
+
+.btn-color {
+    @extend .btn;
+    background-color: rgba(20, 17, 17, 0.726);
+  }
+  
+
+
 
 
 

@@ -4,3 +4,26 @@ $font-color: white;
 $font-principal: 'Manrope', sans-serif;
 $padding-small: 1em;
 $padding-medium: 3em;
+
+
+// SIZE
+$full-size: 100%;
+
+// PADDINGS
+$paddings: (
+    auto:0em,
+    x-small:1em,
+    small:3em,
+    big:10em,
+);
+
+@each $key, $val in $paddings {
+    .#{$key} {
+        padding: #{$val};
+    }
+}
+
+
+
+
+
