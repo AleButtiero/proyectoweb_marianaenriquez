@@ -1,0 +1,37 @@
+/* CONTACTO */
+.form-newsletter2{
+    height: 25em;
+    margin-top: 10em;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:3em;
+    .form-bootstrap{
+        display:flex;
+        justify-content: space-evenly;
+        padding:2em;
+        align-items: center;
+    }
+    .form-tittle{
+        max-width: 50px;
+    }
+    .form-content{
+        display:flex;
+        flex-direction: column;
+        .form-content__input__area{
+            width: 20em;
+            height: 5em;
+        }
+        .form-content__input__area{
+            width: 20em;
+            height: 5em;
+        }
+        .btn-edit{
+            margin-top: 2em;
+        }
+    }
+}
+
+
+

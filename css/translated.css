@@ -53,6 +53,7 @@ header {
       max-width: 100%;
       width: 150px; }
 
+/* FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
@@ -73,6 +74,7 @@ footer {
     max-width: 60%;
     margin-left: 3em; }
 
+/* HOME */
 main .main-section {
   display: flex;
   align-items: center; }
@@ -90,3 +92,146 @@ main .carrusel {
 
 main .form-tittle {
   max-width: 300px; }
+
+/* PUBLICACIONES */
+.main-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em; }
+  .main-section2 .main-image2 {
+    max-width: 80%;
+    margin-top: 8em; }
+  .main-section2 .main-text2 {
+    max-width: 20em;
+    text-align: justify;
+    line-height: 1.9; }
+
+.libros {
+  max-width: 1200px;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center; }
+  .libros__portada {
+    max-width: 50%; }
+  .libros .libros__info:nth-of-type(1) {
+    grid-column: 1 / 7;
+    grid-row: 1; }
+  .libros .libros__info:nth-of-type(2) {
+    grid-column: 7 / 13;
+    grid-row: 1; }
+  .libros .libros__info:nth-of-type(3) {
+    grid-column: 1 / 7;
+    grid-row: 2; }
+  .libros .libros__info:nth-of-type(4) {
+    grid-column: 4 / 10;
+    grid-row: 3; }
+  .libros .libros__info:nth-of-type(5) {
+    grid-column: 7 / 13;
+    grid-row: 2; }
+
+/* BIOGRAFIA */
+.contenedor {
+  max-width: 1200px;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat 2, 1fr; }
+  .contenedor .contenedor__imagen {
+    grid-column: 1 / 7;
+    grid-row: 1; }
+  .contenedor .contenedor__texto {
+    grid-column: 8/13;
+    grid-row: 1;
+    text-align: justify;
+    line-height: 1.9; }
+  .contenedor .contenedor__video {
+    grid-column: 1/13;
+    grid-row: 2;
+    margin-top: 3em; }
+
+/* PRENSA */
+.main-section3 {
+  text-align: center;
+  margin-top: 8em; }
+  .main-section3 .main-section3 .title {
+    margin-top: 2em; }
+  .main-section3 .text-table {
+    display: flex;
+    justify-content: center;
+    border: 0.3em solid white; }
+
+.prensa {
+  text-align: center;
+  margin-top: 3em; }
+
+.prensa-2 {
+  max-width: 1200px;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1em; }
+  .prensa-2 .podcast1 {
+    grid-column: 1/9;
+    grid-row: 1;
+    transition: transform 0.5s; }
+  .prensa-2 .podcast1:hover {
+    grid-column: 1/9;
+    grid-row: 1;
+    transform: scale(1.1); }
+  .prensa-2 .podcast2 {
+    grid-column: 1/9;
+    grid-row: 2;
+    transition: transform 0.5s; }
+  .prensa-2 .podcast2:hover {
+    grid-column: 1/9;
+    grid-row: 2;
+    transform: scale(1.1); }
+  .prensa-2 .podcast3 {
+    grid-column: 1/9;
+    grid-row: 3;
+    transition: transform 0.5s; }
+  .prensa-2 .podcast3:hover {
+    grid-column: 1/9;
+    grid-row: 3;
+    transform: scale(1.1); }
+  .prensa-2 .imagen-podcast {
+    grid-column: 5/13;
+    grid-row: 1/4;
+    transition: transform 0.5s; }
+  .prensa-2 .imagen-podcast:hover {
+    grid-column: 5/13;
+    grid-row: 1/4;
+    transform: scale(1.02); }
+
+/* CONTACTO */
+.form-newsletter2 {
+  height: 25em;
+  margin-top: 10em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em; }
+  .form-newsletter2 .form-bootstrap {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+    align-items: center; }
+  .form-newsletter2 .form-tittle {
+    max-width: 50px; }
+  .form-newsletter2 .form-content {
+    display: flex;
+    flex-direction: column; }
+    .form-newsletter2 .form-content .form-content__input__area {
+      width: 20em;
+      height: 5em; }
+    .form-newsletter2 .form-content .form-content__input__area {
+      width: 20em;
+      height: 5em; }
+    .form-newsletter2 .form-content .btn-edit {
+      margin-top: 2em; }

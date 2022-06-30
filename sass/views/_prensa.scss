@@ -1,0 +1,75 @@
+/* PRENSA */
+
+.main-section3{
+    text-align: center;
+    margin-top: 8em;
+    .main-section3 .title{
+        margin-top: 2em;
+    }
+    .text-table{
+        display:flex;
+        justify-content: center;
+        border: 0.3em solid white;
+    }
+}
+
+.prensa{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.prensa-2{
+    max-width: 1200px;
+    margin-top: 3em;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:1em;
+    .podcast1{
+        grid-column:1/9;
+        grid-row:1;
+        transition: transform 0.5s;
+    }
+    .podcast1:hover{
+        grid-column:1/9;
+        grid-row:1;
+        transform: scale(1.1);
+    }
+    .podcast2{
+        grid-column: 1/9;
+        grid-row: 2;
+        transition: transform 0.5s;
+    }
+    .podcast2:hover{
+        grid-column: 1/9;
+        grid-row: 2;
+        transform: scale(1.1);
+    }
+    .podcast3{
+        grid-column: 1/9;
+        grid-row:3;
+        transition: transform 0.5s;
+    }
+    .podcast3:hover{
+        grid-column: 1/9;
+        grid-row:3;
+        transform: scale(1.1);
+    }
+    .imagen-podcast{
+        grid-column:5/13;
+        grid-row:1/4;
+        transition: transform 0.5s;
+    }
+    .imagen-podcast:hover{
+        grid-column:5/13;
+        grid-row:1/4;
+        transform: scale(1.02);
+    }    
+}
+
+
+
+
+
+
+
