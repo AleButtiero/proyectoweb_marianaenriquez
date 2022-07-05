@@ -1,0 +1,187 @@
+/* MEDIA QUERIES STYLES 880 */
+@media screen and (max-width:880px) {
+    .menu {
+        flex-direction: column;
+        gap:2rem;
+        .logo{
+            display: none;
+        }
+    }
+    .gallery {
+        grid-template-rows: repeat(3, auto);
+        gap: 1rem;
+        .gallery .gallery__image:nth-of-type(1) {
+            grid-column: 1 / 13 ;
+            grid-row: 1 / 2 ;
+        }
+        .gallery .gallery__image:nth-of-type(2) {
+            grid-column: 1/ 13 ;
+        }
+        .gallery .gallery__image:nth-of-type(3) {
+            grid-column: 1 / 13 ;
+            grid-row: 2 / 3 ;
+        }
+        .gallery .gallery__image:nth-of-type(4) {
+            grid-column: 1 / 13 ;
+            grid-row: 3 / 4 ;
+        }
+    }
+      
+    .main-section2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2em;
+    }
+    .libros{
+        display:flex;
+        flex-direction: column;
+    }
+   .contenedor{
+       display:flex;
+       flex-direction: column;
+       .contenedor__video__iframe{
+        display:flex;
+        flex-direction: column;
+        max-width: 550px;
+       }
+   }
+
+   .prensa-2{
+    display:flex;
+    flex-direction: column;
+    .prensa__video1{
+        max-width: 550px;
+    }
+    .prensa__video2{
+        max-width: 550px;
+    }
+   }
+   
+footer{
+    .footer-copyright{
+        display:none;
+    }
+    .footer-icons{
+        display:flex;
+        justify-content: center;
+    }
+    .logo{
+        display: none;
+    }
+}
+.form-bootstrap {
+    .form-newsletter{
+        height: 25em;
+        background-color: brown;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .form-newsletter2{
+        height: 35em;
+        margin-top: 30px;
+        background-color: brown;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        & .form-content{
+            display:flex;
+            flex-direction: column;
+            position:relative;
+            margin-bottom: 1em;
+        }
+        & .form-tittle{
+            position:absolute;
+            margin-bottom: 17em;
+        }
+    }
+} 
+}
+
+/* MEDIA QUERIES STYLES 560 */
+@media screen and (max-width:560px) {
+    .menu {
+        display:flex;
+        .menu__items{
+            align-items: center;
+            gap:0rem;
+            
+        }
+        .menu__items a{
+            padding: 4px;
+        }
+        .logo{
+            display:none;
+        }
+    }
+    .main-section {
+        display:flex;
+        flex-direction: column;
+        .main-text{
+            text-align: center;
+            position:relative;
+            right: 2em;
+            font-size: 11px;
+            }
+    }
+    .form-tittle{
+        display:none;
+    }
+    .contenedor__video__iframe{
+        display:flex;
+        flex-direction: column;
+        max-width: 410px;
+    }
+
+    .prensa-2{
+        .prensa__video1{
+            max-width: 410px;
+        }
+        .prensa__video2{
+            max-width: 410px;
+        }
+    }
+    
+    .gallery {
+        grid-template-rows: repeat(3, auto);
+        gap: 1rem;
+        .gallery .gallery__image:nth-of-type(1) {
+            grid-column: 1 / 13 ;
+            grid-row: 1 / 2 ;
+           }
+           .gallery .gallery__image:nth-of-type(2) {
+            grid-column: 1/ 13 ;
+           }
+           .gallery .gallery__image:nth-of-type(3) {
+            grid-column: 1 / 13 ;
+            grid-row: 2 / 3 ;
+           }
+           .gallery .gallery__image:nth-of-type(4) {
+            grid-column: 1 / 13 ;
+            grid-row: 3/ 4 ;
+           }
+    }
+       .form-newsletter{
+        height: 20em;
+        background-color: brown;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer{
+        margin-left: 1em;
+        .footer-copyright{
+            display:none;
+        }
+        .logo{
+            display:none;
+        }
+    }
+}
