@@ -57,17 +57,17 @@
         <br>
         <h1 class="form-tittle">Contáctate con nosotros y dejanos tu comentario</h1>
         <br>
-        <form  class="form-content" action="" method="post" enctype="multipart/form-data">
+        <form  class="form-content  needs-validation" novalidate  method="post" enctype="multipart/form-data">
             <label class="form-content__input" for="nombre">Nombre</label>
             <input type="text" name="nombre">
             <br>
-            <label class="form-content__input" for="email">Email</label>
-            <input type="email"name="email">
+            <label for="emailInput" class="form-label form-label-prueba">Dirección de Email</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="tunombre@ejemplo.com" required>
             <br>
             <label class="form-content__input" for="mensaje">Deja tu mensaje</label>
             <textarea  class="form-content__input__area"name="mensaje"></textarea>
             <br>
-            <button type="button" class="btn btn-secondary btn-edit">Enviar</button>
+            <button type="submit" class="btn btn-secondary btn-edit">Enviar</button>
         </form>
     </section>
      <!-- fin formulario -->
@@ -124,5 +124,26 @@
       <!-- fin footer-->
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+<script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+  </body>
 </html>
